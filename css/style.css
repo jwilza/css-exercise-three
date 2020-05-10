@@ -1,7 +1,24 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*  Main body of page */
 body {
   background-color: #333;
   font-family: sans-serif;
+  line-height: 1.7em;
   font-size: 10px;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight:740;
+
+}
+
+h3 {
+  font-size: 1.2em;
 }
 
 .container {
@@ -10,12 +27,36 @@ body {
 }
 
 nav {
+  background-color: #131010;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
+  padding: 10px 0 20px 0px;
   position: fixed;
   width: 420px;
 }
 
 .restaurant-list {
   padding-top: 50px;
+  width: 100%;
+}
+
+.location {
+  background-color: #E0E0E0;
+  border-bottom: 1px solid #9C9A9A;
+  padding: 20px 10px 20px 20px;
+}
+
+/* Hover attribute with different background color */
+.location:hover {
+  background-color:#969191;
+}
+
+/* Arrow in Navigation area */
+.arrow-left {
+  padding-left: 20px;
+}
+
+/* Right arrows  */
+.arrow {
+    margin-top: -25px;
+    padding-left: 360px;
 }
